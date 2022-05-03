@@ -1,0 +1,50 @@
+body{
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    background-image: url("images/pattern-background-desktop.svg");
+    width: 1440px;
+}
+
+h1{
+    color: hsl(223, 47%, 23%)
+}
+
+p{
+    size: 16px;
+    color: hsl(224, 23%, 55%)  
+}
+
+#OrderBox{
+    
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    width: 25%;
+    margin-left: 650px;
+
+}
+
+#Accept > img{
+    padding-right: 0px;
+}
+#Accept{
+
+    display: flex;
+    flex-direction: row;
+    
+    color: black;
+}
+
+#Plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.TopImage{
+    width: 360px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
