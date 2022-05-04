@@ -31,10 +31,8 @@ p{
     padding-right: 0px;
 }
 #Accept{
-
     display: flex;
     flex-direction: row;
-    
     color: black;
 }
 
