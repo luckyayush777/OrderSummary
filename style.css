@@ -3,7 +3,15 @@ body{
     font-weight: 500;
     background-image: url("images/pattern-background-desktop.svg");
     width: 1440px;
+    margin-top : 8%;
+    margin-left: 12%;
 }
+.TopImage{
+    width: 360px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 
 h1{
     color: hsl(223, 47%, 23%)
@@ -19,6 +27,12 @@ p{
     color: hsl(224, 23%, 55%)  
 }
 
+a{
+    color: #1E1FCD;
+}
+a:hover{
+    text-decoration: none;
+}
 #OrderBox{
     
     border-radius: 20px;
@@ -58,6 +72,8 @@ p{
 
  #Plan :nth-child(odd){
     color: hsl(223, 47%, 23%);
+
+    font-style: bold;
     margin-bottom: 0px;
 }
 
@@ -66,8 +82,19 @@ p{
     margin-top: 0px;
 }
 
-.TopImage{
-    width: 360px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+
+
+#PaymentButtons > p{
+    width: 268px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#PaymentButtons > p:hover{
+    background-color: #1E1FCD;
+    color: white;
 }
